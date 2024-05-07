@@ -11,7 +11,7 @@ import { ResumeBuilder } from './Components/resume-builder/resume-builder.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/kiau-project',
+    path: '/',
     element: <MainLayout />,
     children: [
       {
