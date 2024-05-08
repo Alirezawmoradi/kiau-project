@@ -29,7 +29,7 @@ export const JobSeekerRegister = () => {
           </p>
           <p className="leading-normal mt-4 text-base font-light text-gray-500">
             کارفرما هستید؟
-            <Link to="/employer-register" className="me-2 text-blue-600 mr-2 hover:underline">ثبت نام کارفرما</Link>
+            <Link to="/kiau-project/employer-register" className="me-2 text-blue-600 mr-2 hover:underline">ثبت نام کارفرما</Link>
           </p>
         </div>
         <div

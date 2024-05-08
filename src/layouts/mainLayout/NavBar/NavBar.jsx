@@ -37,7 +37,7 @@ const NavBar = () => {
   return (
     <div className= 'navBar flex justify-between items-center p-[3rem]' dir='rtl'>
       <div className="logoDiv">
-        <Link to='/' className='gradient leading-[1.3] relative z-10 mx-auto inline-block text-[clamp(1.5rem,1vw,0.2rem)] font-black'>
+        <Link to='/kiau-project/' className='gradient leading-[1.3] relative z-10 mx-auto inline-block text-[clamp(1.5rem,1vw,0.2rem)] font-black'>
           سامانه کاریابی دانشگاه آزاد
         </Link>
       </div>
@@ -47,7 +47,7 @@ const NavBar = () => {
             const isActive = item.id === activeSectionId;
             return (
               <li className={`hover:text-blueColor ${isActive?'text-blueColor transition-colors duration-500':'text-[#6f6f6f]'}`} key={item.id} onClick={() => setActiveSectionId(item.id)}>
-                <Link to={`/${item.route}`} className='font-bold text-base'>{item.title}</Link>
+                <Link to={`/kiau-project/${item.route}`} className='font-bold text-base'>{item.title}</Link>
               </li>
             )
           })

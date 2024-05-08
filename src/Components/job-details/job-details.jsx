@@ -34,7 +34,7 @@ export const JobDetails = () => {
         </div>
         <h4 style={{ fontSize: 18 }}>تهران , سیدخندان</h4>
         <div className="apply">
-          <div className="app"><Link to="/apply">  ارسال رزومه</Link></div>
+          <div className="app"><Link to="/kiau-project/apply">  ارسال رزومه</Link></div>
           {saved ? <img onClick={() => setSaved(!saved)} src="/heart.png" alt="" /> : <img onClick={() => setSaved(!saved)} src="/oheart.png" alt="" />}
         </div>
       </div>

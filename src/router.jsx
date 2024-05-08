@@ -11,7 +11,7 @@ import { ResumeBuilder } from './Components/resume-builder/resume-builder.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/kiau-project/',
     element: <MainLayout />,
     children: [
       {
@@ -19,13 +19,13 @@ const router = createBrowserRouter([
         index: true
       }, {
         element: <JobDetails />,
-        path: 'companies/:company/:title'
+        path: '/kiau-project/companies/:company/:title'
       }, {
         element: <CompanyList />,
-        path: 'company-list'
+        path: '/kiau-project/company-list'
       },{
         element: <ResumeBuilder />,
-        path: 'resume-builder'
+        path: '/kiau-project/resume-builder'
       }
     ]
   },
@@ -33,13 +33,13 @@ const router = createBrowserRouter([
     element: <IdentityLayout />,
     children: [
       {
-        path: 'login',
+        path: '/kiau-project/login',
         element: <JobSeekerLogin />
       }, {
-        path: 'register',
+        path: '/kiau-project/register',
         element: <JobSeekerRegister />
       }, {
-        path: 'employer-register',
+        path: '/kiau-project/employer-register',
         element: <EmployerRegister />
       }
     ]

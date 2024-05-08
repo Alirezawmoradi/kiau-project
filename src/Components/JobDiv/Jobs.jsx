@@ -164,7 +164,7 @@ const Jobs = () => {
                   {company}
                 </span>
               </div>
-              <Link to={`/companies/${company}/${title}`}>
+              <Link to={`/kiau-project/companies/${company}/${title}`}>
                 <button
                   className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-[#959595] hover:bg-gray-200 hover:text-textColor"
                   onClick={() => handleJobClick({ id, image, title, time, location, desc, company })}

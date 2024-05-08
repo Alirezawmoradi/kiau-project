@@ -125,7 +125,7 @@ export const CompanyList = () => {
                 <p className="text-[14px] text-[#959595] mt-0">
                   {desc}
                 </p>
-                <Link to={`/`}>
+                <Link to={`/kiau-project/`}>
                   <button
                     className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-[#959595] hover:bg-gray-200 hover:text-textColor">
                     مشاهده موقعیت های شغلی
